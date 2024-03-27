@@ -101,7 +101,6 @@ function Header() {
                <Link to={routesConfig.home}>
                   <div className={cx('logo-link')}>
                      <img src={images.logo} alt="Pet" />
-                     PetShop
                   </div>
                </Link>
                <Search />

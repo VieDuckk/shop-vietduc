@@ -1,3 +1,28 @@
+.container {
+   max-width: 1370px;
+   margin: 0 calc((100vw - var(--default-layout-width)) / 2);
+}
+
 .wrapper {
    height: 48px;
+   background-color: transparent !important;
+}
+
+.nav-title {
+   margin-top: 6px;
+   padding: 0 64px;
+}
+.nav-title-text {
+   color: #ffffff;
+   font-family: var(--font-family);
+   font-size: var(--font-menu-lv1-size);
+   font-weight: var(--font-menu-lv1-weight);
+   line-height: var(--menu-lv1-line-height);
+   letter-spacing: var(--menu-lv1-letter-spacing);
+   text-transform: var(--menu-lv1-text-transform);
+
+   &:hover {
+      text-decoration: underline;
+      color: #ffffff;
+   }
 }

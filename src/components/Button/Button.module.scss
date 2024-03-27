@@ -9,6 +9,7 @@
    font-weight: 700;
    font-family: var(--font-family);
    cursor: pointer;
+   color: var(--text-color);
    background-color: var(--white);
    border: 1px solid transparent;
    user-select: none;
@@ -41,8 +42,8 @@
 }
 
 .primary {
-   color: var(--white);
-   background-color: var(--primary);
+   color: rgb(51, 76, 160);
+   background-color: rgb(240, 240, 70);
    border-color: var(--primary);
 
    &:hover {
@@ -52,7 +53,7 @@
             rgba(0, 0, 0, 0.06),
             rgba(0, 0, 0, 0.06)
          ),
-         #fe2c55;
+         rgb(185, 185, 29);
    }
 }
 

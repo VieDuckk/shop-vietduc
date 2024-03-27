@@ -22,6 +22,7 @@
    padding: 11px 16px;
    line-height: 1.8rem;
    font-weight: 600;
+   color: var(--text-color);
 
    &.separate {
       border-top: 1px solid rgba(22, 24, 35, 0.12);
@@ -51,4 +52,7 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: var(--text-color);
 }
