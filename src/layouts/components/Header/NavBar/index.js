@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 
 function NavBar() {
    return (
-      <div className={cx('container')}>
+      <div className={cx('coverer')}>
          <nav
             className={cx(
                'wrapper',

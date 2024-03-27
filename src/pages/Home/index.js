@@ -1,5 +1,7 @@
+import SliderComponent from '~/components/SliderComponent';
+import { sliders } from '~/assets/images';
 function Home() {
-    return <h2>Home page</h2>;
+   return <SliderComponent arrImages={sliders} />;
 }
 
 export default Home;
