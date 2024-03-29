@@ -1,7 +1,10 @@
 import React from 'react';
 import Slider from 'react-slick';
 import Image from '../Image';
-import './SliderComponent.module.scss';
+import classNames from 'classnames/bind';
+import styles from './SliderComponent.module.scss';
+
+const cx = classNames.bind(styles);
 
 function SliderComponent({ arrImages }) {
    var settings = {
@@ -16,7 +19,13 @@ function SliderComponent({ arrImages }) {
       <div>
          <Slider {...settings}>
             {arrImages.map((image) => {
-               return <Image src={image} alt="slider" className="slider-img" />;
+               return (
+                  <Image
+                     src={image}
+                     alt="slider"
+                     className={cx('slider-img')}
+                  />
+               );
             })}
          </Slider>
       </div>

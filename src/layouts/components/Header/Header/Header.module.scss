@@ -15,12 +15,11 @@
 }
 
 .coverer {
-   width: 100%;
    margin: 0 calc((100vw - var(--default-layout-width)) / 2);
 }
 
 .inner {
-   height: 60px;
+   height: 67px;
    width: var(--default-layout-width);
    padding: 0 var(--default-layout-horizontal-spacer);
    display: flex;
@@ -33,9 +32,9 @@
 }
 
 .logo-link img {
-   width: 120px;
-   height: 46px;
-   margin-top: 2px;
+   width: 90px;
+   height: 60px;
+   margin: 5px 0 0 15px;
 }
 
 // Actions

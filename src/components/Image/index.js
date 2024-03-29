@@ -1,5 +1,5 @@
 import { useState, forwardRef } from 'react';
-import classNames from 'classnames';
+import classNames from 'classnames/bind';
 import { images } from '~/assets/images';
 import styles from './Image.module.scss';
 
