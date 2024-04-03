@@ -18,9 +18,10 @@ function SliderComponent({ arrImages }) {
    return (
       <div>
          <Slider {...settings}>
-            {arrImages.map((image) => {
+            {arrImages.map((image, index) => {
                return (
                   <Image
+                     key={index}
                      src={image}
                      alt="slider"
                      className={cx('slider-img')}
