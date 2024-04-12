@@ -4,10 +4,14 @@ import Menu, { MenuItem } from './Menu';
 import {
    HomeIcon,
    HomeActiveIcon,
-   UserGroupIcon,
-   UserGroupActiveIcon,
-   LiveIcon,
-   LiveActiveIcon,
+   DogActiveIcon,
+   DogIcon,
+   CatActiveIcon,
+   CatIcon,
+   EquipsIcon,
+   EquipsActiveIcon,
+   PagazinesIcon,
+   PagazinesActiveIcon,
 } from '~/components/Icons';
 import config from '~/config';
 
@@ -18,22 +22,34 @@ function Sidebar() {
       <aside className={cx('wrapper')}>
          <Menu>
             <MenuItem
-               title="For You"
+               title="Trang Chủ"
                to={config.routes.home}
                icon={<HomeIcon />}
                activeIcon={<HomeActiveIcon />}
             />
             <MenuItem
-               title="Following"
-               to={config.routes.following}
-               icon={<UserGroupIcon />}
-               activeIcon={<UserGroupActiveIcon />}
+               title="Chó"
+               to={config.routes.dogs}
+               icon={<DogIcon />}
+               activeIcon={<DogActiveIcon />}
             />
             <MenuItem
-               title="LIVE"
-               to={config.routes.live}
-               icon={<LiveIcon />}
-               activeIcon={<LiveActiveIcon />}
+               title="Mèo"
+               to={config.routes.cats}
+               icon={<CatIcon />}
+               activeIcon={<CatActiveIcon />}
+            />
+            <MenuItem
+               title="Thiết bị thông minh"
+               to={config.routes.equips}
+               icon={<EquipsIcon />}
+               activeIcon={<EquipsActiveIcon />}
+            />
+            <MenuItem
+               title="Pagazines"
+               to={config.routes.pagazines}
+               icon={<PagazinesIcon />}
+               activeIcon={<PagazinesActiveIcon />}
             />
          </Menu>
       </aside>

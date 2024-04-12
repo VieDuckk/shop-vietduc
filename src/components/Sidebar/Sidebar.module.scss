@@ -2,4 +2,16 @@
    width: 356px;
    padding: 20px 0 26px 8px;
    margin-left: -18px;
+   position: relative;
+}
+
+.wrapper::after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   right: 85px;
+   width: 1px;
+   height: 100%;
+   border-left: 1px solid #e9e2e2;
 }
